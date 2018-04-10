@@ -1,0 +1,52 @@
+[{
+ "id":1,
+ "name": "Muhammad",
+ "phone":1234567890,
+ "address":"mhsadjmb",
+ "courier": "Budi",
+ "status": "ACTIVE",
+ "remarks":"",
+ "day": ["Senin,Selasa"]
+
+},
+{
+"id":2,
+"name": "Padma",
+"phone":1234567890,
+"address":"jbadl",
+"courier": "Budi",
+"status": "ACTIVE",
+"remarks":"",
+"day": ["Senin,Selasa"]
+},
+{
+ "id":3,
+ "name": "Wildan",
+ "phone":1234567890,
+ "address":"jbjdukh",
+ "courier": "Budi",
+ "status": "INACTIVE",
+ "remarks":"",
+ "day": ["Rabu,Kamis"]
+
+},
+{
+  "id":4,
+  "name": "Alfa",
+  "phone":1234567890,
+  "address":"ajbjbk",
+  "courier": "Andi",
+  "status": "ACTIVE",
+  "remarks":"",
+  "day": ["Jumat"]
+
+},
+{
+  "id":5,
+  "name": "Yusuf",
+  "phone":1234567890,
+  "address":"ajsjubk",
+  "courier": "Andi",
+  "status": "ACTIVE",
+  "day": ["Jumat"]
+}]

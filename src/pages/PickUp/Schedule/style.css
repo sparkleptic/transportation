@@ -1,0 +1,18 @@
+@media (min-width: 768px){
+  .sevencolumns{
+    text-align: center;
+    padding: 0px;
+    max-width: 13.8899% !important;
+    / flex-basis: 16.66667%;
+  }
+}
+.addtime_btn {
+    text-transform: initial;
+    color: #9a9d9f;
+    font-weight: 300;
+    font-size: 1em;
+}
+.addtime_btn:hover {
+    background-color: transparent;
+    color: #333;
+}

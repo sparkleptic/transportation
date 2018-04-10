@@ -1,0 +1,68 @@
+{
+
+      let currentTime = this.state.time,
+          currentDialogDay = this.state.currentDay,
+          vv = 0,
+          scheduleTime = time['hour']+':'+time['minute'];
+          
+          // console.log(" initial currentTime",currentTime);
+          // console.log(" initial currentDialogDay",currentDialogDay);
+          // console.log(" initial scheduleTime",scheduleTime);
+      
+      if(currentTime.length === 0) 
+      { //If empty
+          currentTime.push(Object.assign({ day: currentDialogDay, data: [scheduleTime] }));
+          console.log("after blank statement",currentTime);
+      } 
+      else 
+      {
+          currentTime.find( (o,i) => 
+          {
+            if( o.day === currentDialogDay) 
+            { 
+              currentTime[i].data.push(scheduleTime);
+              vv = 1; 
+            }
+            else if(o.day != currentDialogDay) 
+            { 
+              if(vv==0)
+                {
+                  currentTime.push(Object.assign({ day: currentDialogDay, data: [scheduleTime] }));
+                }
+            }
+          }
+
+    };
+
+############################################################## else in sub/index.js/ -> handleSelect Time #############################
+
+else 
+    {   
+        console.log("more than 1");
+        count += 1;
+        // console.log("else count",count);
+        
+        currentTime.find((o,i) => {
+          if( o.day === currentDialogDay) 
+            { 
+              count +=1;
+              console.log("nested if",count);
+              // console.log("i am here",currentTime[i].time)
+              currentTime[i].time.push(scheduleTime);
+               
+            }
+            else
+            {
+              count +=1;
+              console.log("nested else",count);
+              // console.log("interations")
+              currentTime.push(Object.assign({ day: currentDialogDay, data: [scheduleTime] }));
+              
+            }
+          // else if( typeof o.day === 'undefined') {
+            // console.log('Day is undefined');
+          // }
+          });
+    }
+
+################################################################################    

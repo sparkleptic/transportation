@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getDrawerMenu should return the right menu structure with the right order from the permissions 1`] = `
+Array [
+  Object {
+    "moduleCode": "POS",
+    "moduleName": "Dashboard",
+    "orderNo": "1",
+    "route": "/new-transactions",
+  },
+  Object {
+    "moduleCode": "Pickup",
+    "moduleName": "Pickup Item",
+    "nested": Array [
+      Object {
+        "moduleCode": "Pickup.Overview",
+        "moduleName": "Pickup Overview",
+        "orderNo": "2.1",
+        "route": "/pickup/overview",
+      },
+      Object {
+        "moduleCode": "Pickup.Request",
+        "moduleName": "Pickup Request",
+        "orderNo": "2.2",
+        "route": "/pickup/request",
+      },
+    ],
+    "orderNo": "2",
+  },
+  Object {
+    "moduleCode": "OtherMenu",
+    "moduleName": "Other Menu Item",
+    "orderNo": "10",
+    "route": "/other/menu",
+  },
+]
+`;

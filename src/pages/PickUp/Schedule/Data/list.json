@@ -1,0 +1,202 @@
+{
+    "status": {
+        "code": 200,
+        "description": "OK"
+    },
+    "current_page": 1,
+    "data": [
+        {
+            "pickup_schedule_id": 3,
+            "sche_name": "BCA",
+            "sche_phone": "81281229124",
+            "sche_address": "Jl panjang 3",
+            "sche_remarks": null,
+            "sche_lat": null,
+            "sche_lon": null,
+            "type": "0",
+            "cust_node_id": null,
+            "courier": {
+                "employee_id": 27,
+                "first_name": "Omega",
+                "last_name": "oneg",
+                "nik": "1560959593",
+                "birth_date": null,
+                "birth_place": null,
+                "no_ktp": null,
+                "no_sim": null,
+                "employement_status": "ACTIVE",
+                "user_id": null,
+                "position_id": "4",
+                "phone_number": null,
+                "gender": "M",
+                "work_location": "207",
+                "employee_lat": null,
+                "employee_lon": null
+            },
+            "time": [
+                {
+                    "id": 3,
+                    "pickup_schedule_id": 3,
+                    "schedule_day": "TUESDAY",
+                    "schedule_time": "+0 14:00:00"
+                }
+            ]
+        },
+        {
+            "pickup_schedule_id": 4,
+            "sche_name": "Mandiri",
+            "sche_phone": "81285781970",
+            "sche_address": "Jl panjang 4",
+            "sche_remarks": null,
+            "sche_lat": null,
+            "sche_lon": null,
+            "type": "0",
+            "cust_node_id": null,
+            "courier": {
+                "employee_id": 7,
+                "first_name": "Paul",
+                "last_name": null,
+                "nik": "1298557753",
+                "birth_date": null,
+                "birth_place": null,
+                "no_ktp": null,
+                "no_sim": null,
+                "employement_status": "ACTIVE",
+                "user_id": "8",
+                "position_id": "4",
+                "phone_number": null,
+                "gender": "M",
+                "work_location": "3",
+                "employee_lat": null,
+                "employee_lon": null
+            },
+            "time": [
+                {
+                    "id": 4,
+                    "pickup_schedule_id": 4,
+                    "schedule_day": "TUESDAY",
+                    "schedule_time": "+0 18:00:00"
+                }
+            ]
+        },
+        {
+            "pickup_schedule_id": 5,
+            "sche_name": "Tees.co.id",
+            "sche_phone": "81290334816",
+            "sche_address": "Jl panjang 5",
+            "sche_remarks": null,
+            "sche_lat": null,
+            "sche_lon": null,
+            "type": "0",
+            "cust_node_id": null,
+            "courier": {
+                "employee_id": 28,
+                "first_name": "Mai",
+                "last_name": null,
+                "nik": "1574079685",
+                "birth_date": null,
+                "birth_place": null,
+                "no_ktp": null,
+                "no_sim": null,
+                "employement_status": "ACTIVE",
+                "user_id": null,
+                "position_id": "4",
+                "phone_number": null,
+                "gender": "M",
+                "work_location": "208",
+                "employee_lat": null,
+                "employee_lon": null
+            },
+            "time": [
+                {
+                    "id": 5,
+                    "pickup_schedule_id": 5,
+                    "schedule_day": "FRIDAY",
+                    "schedule_time": "+0 15:00:00"
+                }
+            ]
+        },
+        {
+            "pickup_schedule_id": 2,
+            "sche_name": "Lazada",
+            "sche_phone": "81276676278",
+            "sche_address": "Jl panjang 2",
+            "sche_remarks": null,
+            "sche_lat": null,
+            "sche_lon": null,
+            "type": "0",
+            "cust_node_id": null,
+            "courier": {
+                "employee_id": 26,
+                "first_name": "De Gea",
+                "last_name": null,
+                "nik": "1547839501",
+                "birth_date": null,
+                "birth_place": null,
+                "no_ktp": null,
+                "no_sim": null,
+                "employement_status": "ACTIVE",
+                "user_id": null,
+                "position_id": "4",
+                "phone_number": null,
+                "gender": "M",
+                "work_location": "206",
+                "employee_lat": null,
+                "employee_lon": null
+            },
+            "time": [
+                {
+                    "id": 2,
+                    "pickup_schedule_id": 2,
+                    "schedule_day": "MONDAY",
+                    "schedule_time": "+0 12:00:00"
+                }
+            ]
+        },
+        {
+            "pickup_schedule_id": 1,
+            "sche_name": "Tokopedia",
+            "sche_phone": "81272123432",
+            "sche_address": "Jl panjang 1",
+            "sche_remarks": null,
+            "sche_lat": null,
+            "sche_lon": null,
+            "type": "0",
+            "cust_node_id": null,
+            "courier": {
+                "employee_id": 7,
+                "first_name": "Paul",
+                "last_name": null,
+                "nik": "1298557753",
+                "birth_date": null,
+                "birth_place": null,
+                "no_ktp": null,
+                "no_sim": null,
+                "employement_status": "ACTIVE",
+                "user_id": "8",
+                "position_id": "4",
+                "phone_number": null,
+                "gender": "M",
+                "work_location": "3",
+                "employee_lat": null,
+                "employee_lon": null
+            },
+            "time": [
+                {
+                    "id": 1,
+                    "pickup_schedule_id": 1,
+                    "schedule_day": "MONDAY",
+                    "schedule_time": "+0 10:00:00"
+                }
+            ]
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "next_page_url": null,
+    "path": "http://coreapi.skyware.systems/api/v1/pickup_schedule",
+    "per_page": 20,
+    "prev_page_url": null,
+    "to": 5,
+    "total": 5
+}

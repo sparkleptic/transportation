@@ -1,0 +1,29 @@
+[{
+ "day": "Jill",
+ "name": "Muhammad",
+ "courier": "Budi",
+ "status": "ACTIVE"
+}, {
+ "day": "ab",
+ "name": "Padma",
+ "courier": "Budi",
+ "status": "ACTIVE"
+},
+{
+ "day": "ef",
+ "name": "Wildan",
+ "courier": "Budi",
+ "status": "INACTIVE"
+},
+{
+ "day": "ij",
+ "name": "Alfa",
+ "courier": "Andi",
+ "status": "ACTIVE"
+},
+{
+ "day": "mn",
+ "name": "Yusuf",
+ "courier": "Andi",
+ "status": "ACTIVE"
+}]
